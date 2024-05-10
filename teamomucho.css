@@ -1,0 +1,247 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body{
+  background: #132A13;
+  margin: 0px;
+  color: #90A955;
+}
+
+header{
+  background-color:#132A13;
+  color: #90A955;
+  padding: 20px;
+  text-align: center ;
+  border-bottom: 2px solid #90A955;
+}
+
+header h1{
+  font-family: "Roboto" ;
+  font-weight: 900;
+  font-style: normal;
+  padding: 25px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #90A955;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 1rem
+}
+
+nav a{
+  background-color: #132A13;
+  color: #90A955;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+
+  transition: all 0.25s ease;
+}
+
+nav a:hover{
+  background-color: #90A955;
+  color: white;
+  transform: translateY(-0.3rem);
+}
+
+main{
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal  ;
+  max-width: 80%;
+  margin: 1rem auto;
+}
+
+.lista-productos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.productos{
+  width: 33%; 
+  border: 3px solid #1e351b;
+  padding: 2rem;
+  margin: 20px;
+  border-radius: 6px;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.productos:hover{
+  box-shadow: 1rem 1rem 2rem #00000023;
+  transform: translateY(-0.3rem);
+}
+
+.productos img{
+  width: 16rem;
+  height: 16rem;
+  display: block;
+  border-radius: 6px;
+  margin: 0 auto 2rem;
+}
+
+.productos button{
+  display: block;
+  margin: 2rem auto 0rem;
+  background-color: #31572C;
+  color: #90A955;
+  border-radius: 6px;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.productos button:hover{
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  box-shadow: 0.6rem 0.6rem 1rem #00000023;
+}
+
+.productos h3{
+    color: white;
+}
+
+footer{
+  background-color: #132A13;
+  color: #90A955;
+  display:flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  border-top: 2px solid #90A955;
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.links-informativos{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 30%;
+  text-decoration: none;
+}
+
+.links-informativos:hover{
+  color: white;
+}
+
+.redes-sociales{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.redes-sociales img {
+  align-self: center;
+  padding: 2rem 0rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+}
+
+.redes-sociales img:hover{
+  transform: scale(1.1);
+}
+
+.info-contacto{
+  width: 500px;
+  text-align: right;
+  font-size: right;
+  font-size: 1rem;
+}
+
+section h2{
+  margin-top: 5rem;
+  color: white;
+  text-align: center;
+}
+
+/* TUYO, MAMI :D */
+
+/* TE AMO */
